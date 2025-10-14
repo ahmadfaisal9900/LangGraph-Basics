@@ -34,7 +34,7 @@ async def main():
     agent = create_react_agent(llm, tools)
 
     print("Invoking the agent...")
-    math_response = await agent.invoke(
+    math_response = await agent.ainvoke(
         {"messages": [{"role": "user", "content": "What is 2 multiplied by 3?"}]}
     )
     print("Math Response:", math_response["messages"][-1].content)
