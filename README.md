@@ -18,7 +18,7 @@ Implements core LangGraph concepts:
 Introduces DSPy fundamentals:
 - Declarative prompt design
 - Context and reasoning optimization
-- Example usage of `dspy.react()`
+- Also added experiment tracking via MLFlow
 
 ### LangSmith Debugging
 Integrates LangSmith with LangGraph:
@@ -58,3 +58,4 @@ Demonstrates advanced LangGraph setups:
 - MCP  
 - GROQ API  
 - Tavily Search  
+
