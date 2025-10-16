@@ -26,7 +26,7 @@ Integrates LangSmith with LangGraph:
 - State inspection and visualization
 - Agent debugging workflow
 
-### Lovable Clone
+### Lovable Clone - AI Coding Assistant
 A LangGraph-based chatbot using:
 - GROQ API for inference  
 - Tavily Search for retrieval  
@@ -58,4 +58,5 @@ Demonstrates advanced LangGraph setups:
 - MCP  
 - GROQ API  
 - Tavily Search  
+
 
